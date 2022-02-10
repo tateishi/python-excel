@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+openpyxl = "*"
 
 [dev-packages]
 
@@ -13,3 +14,4 @@ python_version = "3.10"
 [sciprts]
 build = "python setup.py sdist"
 install = "pip install -e ."
+app1 = "python tests/app1.py"
